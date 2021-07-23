@@ -1,9 +1,22 @@
-#ppicture
-{
-    width : 100px;
-    border-radius: 30px;
-}
 body
 {
     background-color: rgb(95, 188, 224);
+}
+#ppicture
+{
+    width : 100px;
+    border-radius: 60px;
+
+}
+#nome-h1
+{
+    font-family: 'Times New Roman', serif, sans-serif;
+}
+#nacionalidade
+{
+    color: yellow;
+}
+#cidade-atual
+{
+    color: green;
 }
