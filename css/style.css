@@ -2,12 +2,6 @@ body
 {
     background-color: rgb(95, 188, 224);
 }
-#ppicture
-{
-    width : 100px;
-    border-radius: 60px;
-
-}
 #nome-h1
 {
     font-family: 'Times New Roman', serif, sans-serif;
@@ -22,23 +16,37 @@ body
 }
 .hab
 {
-    font-size: 20px;
+    font-size: 40px;
 }
 .hab1
 {
-    font-size: 22px;
+    font-size: 15px;
 }
 .hab2
 {
-    font-size: 24px;
+    font-size: 20px;
 }
 .hab3
 {
-    font-size: 26px;
+    font-size: 35px;
     color: red;
 }
 .hab4
 {
-    font-size: 30px;
+    font-size: 40px;
     color: green;
+}
+.informacoes
+{
+    position: absolute;
+    top: 220px;
+    left: 220px;
+}
+.src_imagem
+{
+    position: relative;
+    width: 200px;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
 }
