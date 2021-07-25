@@ -2,9 +2,14 @@ body
 {
     background-color: rgb(95, 188, 224);
 }
-#nome-h1
+.nome
 {
     font-family: 'Times New Roman', serif, sans-serif;
+    text-align: center;
+}
+.descricao
+{
+    text-align: center;
 }
 #nacionalidade
 {
@@ -39,7 +44,7 @@ body
 .informacoes
 {
     position: absolute;
-    top: 220px;
+    top: 260px;
     left: 220px;
 }
 .src_imagem
@@ -49,4 +54,5 @@ body
     height: 220px;
     object-fit: cover;
     object-position: center;
+    border-radius: 30px;
 }
