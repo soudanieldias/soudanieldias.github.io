@@ -1,6 +1,7 @@
 body
 {
     background-color: rgb(95, 188, 224);
+    /*background-color: rgb(63, 3, 3)*/
 }
 .nome
 {
@@ -9,6 +10,7 @@ body
 }
 .descricao
 {
+    font-family: 'Times New Roman', serif, sans-serif;
     text-align: center;
 }
 #nacionalidade
@@ -19,26 +21,26 @@ body
 {
     color: green;
 }
-.hab
+.ab
 {
     font-size: 40px;
 }
-.hab1
+.ab1
 {
     font-size: 15px;
 }
-.hab2
+.ab2
 {
     font-size: 20px;
 }
-.hab3
+.ab3
 {
     font-size: 35px;
     color: red;
 }
-.hab4
+.ab4
 {
-    font-size: 40px;
+    font-size: 0px;
     color: green;
 }
 .informacoes
@@ -46,6 +48,8 @@ body
     position: absolute;
     top: 260px;
     left: 220px;
+    color:rgb(100, 7, 187);
+    /* background-color: blueviolet; */
 }
 .src_imagem
 {
@@ -55,4 +59,13 @@ body
     object-fit: cover;
     object-position: center;
     border-radius: 30px;
+    border: 2px solid rgb(100, 7, 187);
+}
+.container_imagem
+{
+    background-color: blueviolet;
+    width: 205px;
+    height: 230ṕx;
+    border-radius: 10px;
+    /* margin-right: 800px */
 }
