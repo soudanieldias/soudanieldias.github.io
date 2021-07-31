@@ -1,0 +1,12 @@
+body
+{
+    background-color: rgb(95, 188, 224);
+    /*background-color: rgb(63, 3, 3)*/
+}
+#cabecalho
+{
+    margin-left:10px;
+    margin-top: 10px;
+    background-color: gray;
+    
+}
