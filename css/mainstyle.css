@@ -12,7 +12,27 @@ body
 main
 {
     background-color: rgb(136, 119, 62);
-    margin: 10px 20%;
     display: block;
+    margin: 10px 20%;
     padding-bottom: 100%;
+}
+.closebtn
+{
+    background-color: red;
+    margin-left: 15px;
+}
+.alert
+{
+    background-color: yellow;
+    border-radius: 30px;
+    margin-top: 3%;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 5px;
+    position: absolute;
+}
+.text-alert
+{
+    font-size: 20px;
+    text-align: center;
 }
