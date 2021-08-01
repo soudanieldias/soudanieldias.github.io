@@ -5,7 +5,7 @@ header
     padding: 5px 5px;
     margin: 5px 5px;
 }
-.button {
+.header-button {
     display: inline-block;
     width: 140px;
     height: 30px;
