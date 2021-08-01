@@ -1,11 +1,18 @@
 header
 {
-    background-color: rgb(187, 131, 86);
-    padding: 5px 5px 5px;
-    margin: 5px 5px 5px;
+    background-color: rgb(177, 158, 96);
+    padding: 5px 5px;
+    margin: 5px 5px;
 }
 body
 {
     background-color: rgb(177, 158, 96);
     /*background-color: rgb(63, 3, 3)*/
+}
+main
+{
+    background-color: rgb(136, 119, 62);
+    margin: 10px 20%;
+    display: block;
+    padding-bottom: 100%;
 }
