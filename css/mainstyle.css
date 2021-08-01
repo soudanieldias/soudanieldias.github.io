@@ -1,14 +1,26 @@
 /* MODIFICADORES DE SEÇÕES */
-body
-{
-    background-color: rgb(177, 158, 96);
-    /*background-color: rgb(63, 3, 3)*/
-}
 header
 {
     background-color: rgb(177, 158, 96);
     padding: 5px 5px;
     margin: 5px 5px;
+}
+.button {
+    display: inline-block;
+    width: 140px;
+    height: 30px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+body
+{
+    background-color: rgb(177, 158, 96);
+    /*background-color: rgb(63, 3, 3)*/
 }
 main
 {
