@@ -1,0 +1,48 @@
+/* MODIFICADORES DE SEÇÕES */
+body
+{
+    background-color: #1b7995;
+    /*background-color: rgb(63, 3, 3)*/
+}
+main
+{
+    background-color: #499cb6;
+    display: block;
+    margin: 10px 20%;
+    padding-top: 1px;
+    padding-bottom: 1000px;
+}
+
+
+/* MODIFICADORES DE CLASSES */
+
+
+/* MODIFICADORES DE ID */
+
+
+
+/* MODIFICADORES DE TAGS ESPECÍFICAS */
+h1
+{
+    text-align: center;
+    justify-content:flex-start;
+}
+h2
+{
+    text-align: center;
+    justify-content:flex-start;
+}
+h3
+{
+    text-align: center;
+    justify-content:flex-start;
+}
+img
+{
+    border-radius: 10px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 5px;
+    width: 25%;
+}

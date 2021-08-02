@@ -1,46 +1,47 @@
-<doctype HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <link rel="stylesheet" type="text/css" href="css/style.css"/>
-        <script type="text/javascript" src="js/script.js"></script>
-        <title> .: Daniel Dias Barbosa - Desenvolvedor Web :.</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/mainstyle.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+        <title>Daniel Dias - Desenvolvedor WEB</title>
     </head>
 
-    <Body>
-        <div class="Menu">
-            <a href="#ppicture">Foto</a>
-            <a href="http://www.w3schools.com/html/" target="_blank">Site Favorito</a>
-        </div>
+    <body>
+        <!-- Cabeçalho -->
+        <header id="cabecalho">
+            <script>$( "#cabecalho" ).load( "/resources/header.html #menu-cabecalho" );</script>
+        </header>
+        <!-- Cabeçalho -->
 
-        <div class="indice">
-            <h2>Índice do Site:</h2>
-                <a href="#nome-h1">Nome</a>
-                <a href="#description">Descrição</a>
-                <a href="#habilities">Habilidades</a>
-                <a href=""></a>
-        </div>
+        <!-- AlertBox -->
+        <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <p class=text-alert>Olá Usuário.</p>
+            <p class=text-alert>Seja muito bem-vindo a minha página!!! :D</p>
+          </div>
+        <!-- AlertBox -->
 
-        <div class= "textos">
-            <h1 id="paragrafo">Daniel Dias Barbosa</h1>
-            <h3 id="subparagrafo">Pessoa desenvolvedora em formação pela Trybe</h3>
-            <img alt="Daniel Dias Barbosa - Arquivo Pessoal" id="ppicture" src="images/picture.jpg"/>
-        </div>
+        <!-- Guia Principal -->
+        <main id="principal">
+            <h1 id="main-title">Olá, seja muito bem-vindo ao meu site!!!</h1>
 
-        <div class="informacoes">
-            <h2>Informações Pessoais:</h2>
-            <ul>
-                <li class="nome-h1">Daniel Dias Barbosa</li>
-                
-                <li id="description"><b id="nacionalidade">Brasileiro</b>, nascido em Cariacica - ES, e atualmente residindo em <b id="cidade-atual">Serra - ES</b>, descobri minha paixão pela computação aos 12 anos, quando ganhei de presente de meus pais o meu primeiro computador. E, embora nunca tivesse tido um contato tão grande com uma máquina antes, fui me virando até que aprendesse a fazer coisas básicas, desde abrir o navegador acessar o clickjogos, até abrir portas no roteador e hospedar servidores de games, como Minecraft e CS 1.6.</li>
-                
-                <li id="habilities">
-                    <b class="hab">Habilidades e Competências:</b>
-                    <br> <b class="hab1">Lógica de Programação
-                    <br> <b class="hab2">Desenvolvimento de Algoritmos e aplicações de Console em C, C++ & c#.
-                    <br><b class="hab3">Desenvolvimento de Scripts para jogos em Python 2.x</b>
-                    <br><i class="hab4">Programação back-end</i>
-                </li>
-                
-            </ul>
-    </Body>
+            <article id="introducao">
+                Me chamo Daniel Dias, atualmente estudo desenvolvimento web na TRYBE, e já estou aplicando meus conhecimentos adquiridos através do curso nesta página web.
+                <br>Navegue nos menus acima para conhecer um pouco sobre mim, meus projetos desenvolvidos e algumas informações adicionais em detalhes!
+            </article>
+
+        </main>
+        <!-- Guia Principal -->
+
+        <!-- Rodapé -->
+        <footer id="rodape">
+
+        </footer>
+        <!-- Rodapé -->
+    </body>
 </html>
