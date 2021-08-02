@@ -1,29 +1,3 @@
-/*MODIFICADORES GLOBAIS*/
-
-/*Cabeçalho*/
-header
-{
-    background-color: rgb(47, 90, 104);
-    padding: 5px 5px;
-    margin: 5px 5px;
-}
-
-/*Botões Cabeçalho*/
-.header-button {
-    /*Propriedades de Elemento*/
-    background: #4E9CAF;
-    border-radius: 5px;
-    color: white;
-    display: inline-block;
-    height: 30px;
-    width: 140px;
-    padding: 10px;
-    /*Propriedades de Texto*/
-    font-weight: bold;
-    line-height: 25px;
-    text-align: center;
-    text-decoration: none;
-}
 /* MODIFICADORES DE SEÇÕES */
 body
 {
