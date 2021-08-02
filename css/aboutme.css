@@ -1,4 +1,5 @@
-/* MODIFICADORES DE SEÇÕES */
+/*MODIFICADORES GLOBAIS*/
+/*Cabeçalho*/
 header
 {
     background-color: rgb(47, 90, 104);
@@ -18,14 +19,18 @@ header
     line-height: 25px;
     text-decoration: none;
 }
+
+/* MODIFICADORES DE SEÇÕES */
+
+
 body
 {
-    background-color: rgb(177, 158, 96);
+    background-color: rgb(116, 88, 14);
     /*background-color: rgb(63, 3, 3)*/
 }
 main
 {
-    background-color: rgb(136, 119, 62);
+    background-color: rgb(92, 73, 20);
     display: block;
     margin: 10px 20%;
     padding-top: 1px;
