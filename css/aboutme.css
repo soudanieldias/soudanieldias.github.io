@@ -31,27 +31,14 @@ main
     padding-top: 1px;
     padding-bottom: 1000px;
 }
+img
+{
+    margin-left: 20px;
+    width: 30%;
+}
 /* MODIFICADORES DE CLASSES */
-.closebtn
-{
-    background-color: red;
-    margin-left: 15px;
-}
-.alert
-{
-    background-color: yellow;
-    border-radius: 30px;
-    margin-top: 4%;
-    margin-left: 40%;
-    margin-right: 40%;
-    padding: 5px;
-    position: absolute;
-}
-.text-alert
-{
-    font-size: 20px;
-    text-align: center;
-}
+
+
 /* MODIFICADORES DE ID */
 
 /* MODIFICADORES DE TAGS ESPECÍFICAS */
@@ -59,7 +46,9 @@ h1
 {
     text-align: center;
 }
+/*
 article
 {
     padding-left: 20px;
 }
+*/
