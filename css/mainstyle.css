@@ -42,5 +42,7 @@ h1
 }
 article
 {
+    justify-content: start;
     padding-left: 20px;
+    white-space: pre-line;
 }
