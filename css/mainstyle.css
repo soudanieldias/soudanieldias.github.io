@@ -1,31 +1,38 @@
-/* MODIFICADORES DE SEÇÕES */
+/*MODIFICADORES GLOBAIS*/
+
+/*Cabeçalho*/
 header
 {
     background-color: rgb(47, 90, 104);
     padding: 5px 5px;
     margin: 5px 5px;
 }
+
+/*Botões Cabeçalho*/
 .header-button {
-    display: inline-block;
-    width: 140px;
-    height: 30px;
+    /*Propriedades de Elemento*/
     background: #4E9CAF;
-    padding: 10px;
-    text-align: center;
     border-radius: 5px;
     color: white;
+    display: inline-block;
+    height: 30px;
+    width: 140px;
+    padding: 10px;
+    /*Propriedades de Texto*/
     font-weight: bold;
     line-height: 25px;
+    text-align: center;
     text-decoration: none;
 }
+/* MODIFICADORES DE SEÇÕES */
 body
 {
-    background-color: rgb(177, 158, 96);
+    background-color: #1b7995;
     /*background-color: rgb(63, 3, 3)*/
 }
 main
 {
-    background-color: rgb(136, 119, 62);
+    background-color: #499cb6;
     display: block;
     margin: 10px 20%;
     padding-top: 1px;
@@ -39,7 +46,7 @@ main
 }
 .alert
 {
-    background-color: yellow;
+    background-color: rgb(255, 255, 0);
     border-radius: 30px;
     margin-top: 4%;
     margin-left: 40%;
