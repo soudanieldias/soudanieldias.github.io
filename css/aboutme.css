@@ -31,24 +31,23 @@ main
     padding-top: 1px;
     padding-bottom: 1000px;
 }
-img
-{
-    margin-left: 20px;
-    width: 30%;
-}
+
+
 /* MODIFICADORES DE CLASSES */
 
 
 /* MODIFICADORES DE ID */
-
+sobremim
+{
+    
+}
 /* MODIFICADORES DE TAGS ESPECÍFICAS */
 h1
 {
     text-align: center;
 }
-/*
-article
+img
 {
-    padding-left: 20px;
+    margin-left: 20px;
+    width: 30%;
 }
-*/
