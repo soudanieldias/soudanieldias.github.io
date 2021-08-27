@@ -9,6 +9,13 @@ body {
 }
 header {
   /* Estilização Header  */
+  background-color: rgb(225, 180, 180);
+  padding: 3px 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+
 }
 
 main {
