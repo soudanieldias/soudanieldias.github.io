@@ -6,6 +6,7 @@
 
 body {
   /* Estilização Body */
+  background-color: rgb(233, 113, 113);
 }
 header {
   /* Estilização Header  */
@@ -20,8 +21,15 @@ header {
 
 main {
   /* Estilização Main */
+  padding: 15% 10%;
+  margin: 0px 10px;
+  background-color: chocolate;
 }
 
 footer {
   /* Estilização Footer */
+  background-color: cornflowerblue;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
