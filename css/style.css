@@ -49,3 +49,19 @@ header #logo-header img {
   margin-right: 5px;
   border-radius: 25px;
 }
+
+header #nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  width: 600px;
+}
+
+header #nav-menu a {
+  border: 1px solid black;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+}
