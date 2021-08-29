@@ -6,7 +6,7 @@
 
 body {
   /* Estilização Body */
-  background-color: rgb(233, 113, 113);
+  background-color: rgb(60, 64, 68)
 }
 header {
   /* Estilização Header  */
@@ -23,13 +23,14 @@ main {
   /* Estilização Main */
   padding: 15% 10%;
   margin: 0px 10px;
-  background-color: chocolate;
+  background-color: rgb(112, 143, 192);
 }
 
 footer {
   /* Estilização Footer */
   background-color: cornflowerblue;
   width: 100%;
+  height: 60px;
   position: relative;
   bottom: 0;
   clear: both;
