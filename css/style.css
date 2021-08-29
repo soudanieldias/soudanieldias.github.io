@@ -16,7 +16,7 @@ header {
   display: flex;
   flex-direction: row;
   position: fixed;
-
+  justify-content: space-between;
 }
 
 main {
@@ -38,6 +38,9 @@ footer {
 header #text-header {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
 }
 header #logo-header img {
   display: flex;
