@@ -23,7 +23,8 @@ main {
   /* Estilização Main */
   padding: 15% 10%;
   margin: 0px 10px;
-  background-color: rgb(112, 143, 192);
+  background-color: rgb(110, 120, 130);
+  white-space: pre-line;
 }
 
 footer {
