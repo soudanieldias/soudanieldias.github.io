@@ -34,7 +34,15 @@ footer {
   bottom: 0;
 }
 
+/* Modifica elementos do header */
 header #text-header {
   display: flex;
   flex-direction: column;
+}
+header #logo-header img {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  margin-right: 5px;
+  border-radius: 25px;
 }
