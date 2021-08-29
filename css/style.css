@@ -10,7 +10,7 @@ body {
 }
 header {
   /* Estilização Header  */
-  background-color: rgb(225, 180, 180);
+  background-color: rgb(40, 40, 40);
   padding: 3px 5px;
   width: 100%;
   display: flex;
@@ -30,18 +30,12 @@ footer {
   /* Estilização Footer */
   background-color: cornflowerblue;
   width: 100%;
-  position: absolute;
+  position: relative;
   bottom: 0;
+  clear: both;
 }
 
 /* Modifica elementos do header */
-header #text-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 300px;
-}
 header #logo-header img {
   display: flex;
   flex-direction: column;
@@ -49,6 +43,19 @@ header #logo-header img {
   margin-right: 5px;
   border-radius: 25px;
 }
+
+header #text-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  color: white;
+  font-family: 'Times New Roman', Times;
+  font-stretch: narrower;
+  font-size: 20px;
+}
+
 
 header #nav-menu {
   display: flex;
@@ -60,8 +67,10 @@ header #nav-menu {
 }
 
 header #nav-menu a {
-  border: 1px solid black;
+  border: 1px solid green;
   width: 100px;
   text-align: center;
   text-decoration: none;
+  background-color:rgb(33, 66, 99, 0.8);
+  color: white;
 }
