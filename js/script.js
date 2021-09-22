@@ -4,7 +4,7 @@
         const textoArray = elemento.innerHTML.split('');
         elemento.innerHTML = '';
         textoArray.forEach((letra, i) => {
-            setTimeout(() => elemento.innerHTML += letra, 500 * i);
+            setTimeout(() => elemento.innerHTML += letra, 70 * i);
         });
     }
 
@@ -17,5 +17,7 @@
     //     setTimeout(() => elemento.innerHTML += textoArray[i], 75 * i);
     //   }
   // }
-  const titulo = document.querySelector('h1');
-  typeWriter(titulo);
+//   const titulo = document.querySelector('h1');
+const paragrafoIntro = document.querySelector('#paragrafo-intro')
+//   typeWriter(titulo);
+typeWriter(paragrafoIntro);
