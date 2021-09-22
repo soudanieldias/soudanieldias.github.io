@@ -106,3 +106,7 @@ header #nav-menu a {
   align-self: flex-start;
   
  }
+
+ .hidden {
+   display: none;
+ }
