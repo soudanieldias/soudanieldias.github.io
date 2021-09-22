@@ -2,10 +2,9 @@
     function typeWriter(elemento)
     {
         const textoArray = elemento.innerHTML.split('');
-        elemento.innerHTML = 'titulo-h1';
-        textoArray.forEach((letra, i) =>
-        {
-            setTimeout(() => elemento.innerHTML += letra, 75 * i);
+        elemento.innerHTML = '';
+        textoArray.forEach((letra, i) => {
+            setTimeout(() => elemento.innerHTML += letra, 500 * i);
         });
     }
 
