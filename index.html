@@ -1,184 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://afeld.github.io/emoji-css/emoji.css">
-    <title>Daniel Dias Barbosa - Desenvolvedor Web</title>
-</head>
-<body>
-    <header>
-        <!-- HEADER -->
-        <!-- Imagem Left -->
-        <div id="logo-header">
-        <img src="images/logo.jpeg" alt="logo-img" srcset="">
-        </div>
-        <!-- Center Texto -->
-        <div id="text-header">
-            <h2>Daniel Dias Barbosa</h2>
-            <p>Desenvolvedor Web</p>
-        </div>
-        <!-- Links Right -->
-        <div id="nav-menu">
-            <a href="#intro">Introdução</a>
-            <a href="#news">Notícias</a>
-            <a href="#projects">Projetos</a>
-            <a href="#aboutme">Sobre Mim</a>
-            <a href="#contact">Contato</a>
-        </div>
-    </header>
-    <main>
-        <!-- CONTEÚDO PRINCIPAL -->
-        <section id="intro">
-            <h1>INTRO:</h1>
-            <p id="paragrafo-intro">
-            Olá, Visitante. Seja bem-vindo ao meu Website/Portfólio web.
-            
-            Aqui você irá encontrar algumas informações sobre mim, Projetos Desenvolvidos ao longo de minha carreira como Desenvolvedor, Formação Profissional, Qualificações, e etc.
-            Você pode escolher navegar pelo site tanto através dos menus acima, quanto rolando a página, todas as seçoes estão separadas e identificadas.
-            
-            Desde já, obrigado por visitar minha página.
-            </p>
-        </section>
-        <hr>
-        <section id="news">
-            <h1>NOTÍCIAS:</h1>
-            <p id="paragrafo-news">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus quam eu justo maximus facilisis. Suspendisse quis felis felis. Nulla facilisi. Cras a fermentum neque, non volutpat enim. Nulla nec massa et felis condimentum consectetur. Maecenas eget fringilla leo. Cras mollis at sapien ac rutrum. Mauris venenatis eros nisl.
-            
-            Praesent euismod aliquam turpis, id cursus sapien euismod non. Integer eu justo a metus tempor sodales. Ut dapibus, tellus nec lacinia tempor, augue neque auctor lorem, pulvinar sagittis lectus dolor eu erat. Phasellus vulputate posuere justo, eget dignissim eros iaculis in. Maecenas sodales lobortis tortor, eu facilisis mauris ullamcorper nec. Praesent nisi felis, scelerisque nec arcu ac, faucibus ultricies massa. Mauris ipsum odio, vehicula a quam id, commodo pharetra ante. Phasellus tincidunt augue vel ullamcorper congue.
-            
-            Mauris purus dolor, venenatis vitae aliquet id, imperdiet eget metus. Phasellus bibendum posuere enim, tempor luctus ligula ullamcorper quis. Ut eu mauris suscipit, ultrices quam ut, efficitur nisl. Aliquam erat volutpat. Suspendisse id ultricies augue. Integer convallis elit eu pharetra pulvinar. Sed auctor sapien sit amet dictum porttitor. Aliquam blandit enim et erat facilisis varius. Proin semper mi ex, at tristique lorem sodales ac. Nam vitae nisi sit amet diam fermentum iaculis eu in tellus. Donec lacinia tristique ante vitae vestibulum. Nulla quam felis, venenatis ac ante vel, suscipit commodo sem. Phasellus quis iaculis nunc, in suscipit nulla.
-            
-            Proin efficitur nisl eget eros euismod, ut pulvinar lacus posuere. Pellentesque vel ex est. Mauris in sem auctor, viverra lorem ut, iaculis odio. Etiam a nisi at arcu dapibus viverra. Curabitur a vulputate risus, a tincidunt nisl. Duis ultrices neque nec nulla luctus, ac blandit lacus vulputate. Sed dignissim justo urna, in finibus risus varius eget. Morbi a leo eleifend mauris porttitor auctor. Mauris id tortor aliquam, porttitor ante in, ultricies velit. Curabitur id metus rhoncus, ullamcorper purus sed, porta urna. Ut fringilla lacus urna, nec vulputate dolor accumsan eget.
-            
-            Sed faucibus, diam ac hendrerit suscipit, nisl elit auctor enim, eget varius libero metus a libero. Nunc a gravida ligula. Curabitur hendrerit mauris non risus faucibus, nec lacinia mi mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi ac risus et risus rutrum lacinia. Mauris mattis elit vel justo varius eleifend. Donec id dignissim risus, eget tempus ligula. Etiam volutpat arcu sodales sagittis consectetur. Nulla dictum pulvinar tortor, vel tristique magna lobortis tempus. Curabitur tincidunt nunc ex, sed maximus enim hendrerit eget. Duis euismod, urna non eleifend volutpat, libero arcu pharetra sem, sit amet dapibus justo enim nec sapien. Phasellus sed eros dolor. Pellentesque ultrices, dui a porttitor fermentum, orci tortor ullamcorper sapien, vel tristique mauris orci quis felis. Morbi et suscipit nunc, et malesuada urna. Fusce sed ullamcorper lectus. 
-            </p>
-        </section>
-        <hr>
-        <section id="projects">
-            <h1>PROJETOS:</h1>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/mainstyle.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+        <title>Daniel Dias - Desenvolvedor WEB</title>
+    </head>
 
-            Confira logo à baixo, alguns Projetos implementados durante a minha formação como Pessoa Desenvolvedora na TRYBE:
+    <body>
+        <!-- Cabeçalho -->
+        <header id="cabecalho">
+            <script>$( "#cabecalho" ).load( "/resources/header.html #menu-cabecalho" );</script>
+        </header>
+        <!-- Cabeçalho -->
 
-            <h3>PROJETO LESSONS LEARNED (Bloco 03):</h3>
-            <b>Descrição:</b> Um site contendo algumas informações sobre o que aprendi na Trybe ao longo dos três primeiros Blocos. Com elementos posicionados e estilizados, além de ser construído com base na regra do HTML semântico.
+        <!-- AlertBox -->
+        <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <p class=text-alert>Olá Usuário.</p>
+            <p class=text-alert>Seja muito bem-vindo a minha página!!! :D</p>
+          </div>
+        <!-- AlertBox -->
 
-            <a href="https://github.com/tryber/sd-015-b-project-lessons-learned/tree/daniel-dias-lessons-learned" target="_blank">Repositório Projeto Lessons Learned</a>
-            <a href="https://github.com/tryber/sd-015-b-project-lessons-learned/pull/113" target="_blank">PR Projeto Lessons Learned</a>
-            
-            <hr>
-            <h3>PROJETO Playground Functions (Bloco 04):</h3>
-            <b>Descrição:</b> Consiste no desenvolvimento de funções que Retornem valores booleanos, resultados de operações,
-            cálculo de área, manipulação de arrays, objetos e uma função que codifica letras de uma frase, as trocando por números.
+        <!-- Guia Principal -->
+        <main id="principal">
+            <h1 id="main-title">Olá, seja muito bem-vindo ao meu site!!!</h1>
 
-            <a href="https://github.com/tryber/sd-015-b-project-playground-functions/tree/daniel-dias-playground-functions" target="_blank">Projeto Playground Functions</a>
-            <a href="https://github.com/tryber/sd-015-b-project-playground-functions/pull/98" target="_blank">PR Projeto Playground Functions</a>
+            <article id="introducao">
+                Me chamo Daniel Dias, atualmente estudo desenvolvimento web na TRYBE, e já estou aplicando meus conhecimentos adquiridos através do curso nesta página web.
+                <br>Navegue nos menus acima para conhecer um pouco sobre mim, meus projetos desenvolvidos e algumas informações adicionais em detalhes!
+            </article>
 
-            <hr>
-            <h3>PROJETO [Pixel Art] Arte com Pixels (Bloco 05):</h3>
-            <b>Descrição:</b> Consiste em desenvolver um quadrado com pixels, gerado de acordo com o valor que o usuário digitar, limitado a 30 pixels.
-            O board é gerado, por exemplo, quando o valor '5' é passado, com 5 pixels de largura e 5 pixels de altura, respectivamente.
-            Existe uma paleta de cores gerada dinamicamente, que quando clicada, passa a ser a cor do pincel de pixels (No caso, o mouse),
-            e a cada interação com os pixels criados no board, o mesmo recebe a cor selecionada
+        </main>
+        <!-- Guia Principal -->
 
-            <a href="https://github.com/tryber/sd-015-b-project-pixels-art/tree/daniel-dias-project-pixels-art" target="_blank">Projeto Pixels Art</a>
-            <a href="https://github.com/tryber/sd-015-b-project-pixels-art/pull/15" target="_blank">PR Projeto Pixels Art</a>
+        <!-- Rodapé -->
+        <footer id="rodape">
 
-            <hr>
-            <h3>PROJETO Trybewarts (Bloco 06):</h3>
-            <b>Descrição:</b> Consiste no desenvolvimento de uma página de Escola, com um formulário de Inscrição para a mesma.
-            O desenvolvimento do projeto consistiu na realização de algumas tarefas, divididas entre Duplas.
-
-            <p>SEGUE LINK PARA O GITHUB DE MINHA DUPLA NESTE PROJETO: <a href="https://github.com/YamamotoAndre" target="_blank">(André Yamamoto)</a></p>
-            <a href="https://github.com/tryber/sd-015-b-project-trybewarts/tree/daniel-dias-trybewarts-project" target="_blank">Projeto Trybewarts</a>
-            <a href="https://github.com/tryber/sd-015-b-project-trybewarts/pull/66" target="_blank">PR Projeto Trybewarts</a>
-
-            <!-- ELEMENTO MODELO PARA ADIÇÃO DE LINKS PARA PROJETOS DESENVOLVIDOS -->
-            <div class="hidden">
-                <hr>
-                <h3>PROJETO X (Bloco XX):</h3>
-                <b>Descrição:</b> Resumo Projeto.
-                
-                <a href="https://github.com/tryber/sd-015-b-project-nome-projeto/tree/daniel-dias-nome-projeto" target="_blank">Projeto XX</a>
-                <a href="https://github.com/tryber/sd-015-b-project-nome-projeto/pull/xx" target="_blank">PR Projeto XX</a>
-            </div>
-            
-        </section>
-        <hr>
-        <section id="links-uteis">
-            <h1>LINKS ÚTEIS:</h1>
-            Além dos Projetos desenvolvidos na trybe, caso tenha interesse, segue a baixo o Link para o meu repositório do GitHub, o qual também possui projetos Paralelos ao Curso e Pessoais.
-
-            <a href="https://github.com/tryber/sd-015-b-project-nome-projeto/tree/daniel-dias-nome-projeto">Github</a>
-
-            Links para Minhas Redes Sociais:
-            <a href="https://facebook.com/ODanielVlogao/" target="_blank">Facebook</a>
-            <a href="https://instagram.com/soudanieldias/" target="_blank">Instagram</a>
-            <a href="https://twitter.com/soudanieldias/" target="_blank">Twitter</a>
-            <a href="https://linkedin.com/in/soudanieldias/" target="_blank">LinkedIn</a>
-            <!-- <a href="">LINK</a> -->
-        </section>
-        <hr>
-        <section id="aboutme">
-            <h1>ABOUT ME:</h1>
-            <div id="conteudo-aboutme">
-                
-                <div id="imagem-aboutme">
-                    <img src="images/picture.jpg" alt="Daniel Dias barbosa - Arquivo Pessoal" srcset="">
-                </div>
-
-                <div id="texto-aboutme">
-                <h2>Daniel Dias Barbosa</h2>
-                <h3>Pessoa Desenvolvedora em Formação pela TRYBE.</h3>
-                
-                <p>INFORMAÇÕES PESSOAIS:</p>
-                <p>Nome: Daniel Dias Barbosa</p>
-                <p>Idade: 22 anos</p>
-                <p>Profissão: Desenvolvedor WEB [EM FORMAÇÃO]</p>
-                </div>
-            </div>
-            <div id="resumo-aboutme">
-                <h3>Um pouco sobre Mim:</h3>
-
-                Nascido em Cariacica - ES e atualmente morando na Serra - ES, sempre fui apaixonado pela área de tecnologia.
-                
-                Quando criança, gostava muito de abrir as coisas para entender como elas funcionavam, inclusive já quebrei muitos brinquedos meus nesse processo... (Risos)
-
-                Tive o meu primeiro contato com um computador em 2007, na lan-house, mas apenas o utilizava para jogar online. Mas foi então que eu, em Dezembro de 2012, ganhei o meu primeiro computador pessoal.
-
-                Como já relatado anteriormente, sempre fui muito curioso, e de repende me veio na mente tentar entender como as coisas funcionavam na internet, ou seja, qual o processo que faz com que este site que você está vendo seja formado na tela do usuário. E foi assim que descobri a função "Inspecionar Elemento" do Chrome e fiquei impressionado.
-
-                Inicialmente, comecei criando um site de TV Online com os conhecimentos adquiridos, tudo muito simples, aquele classico abre TAG e fecha TAG que já conhecemos, porém tudo na tentativa e erro, afinal, eu tinha 13 anos nessa época, e nunca havia "Programado" nada, se é que podemos dizer que programamos em HTML.
-                
-                Quando estava tudo pronto, eu corri para hospedar o que havia feito na Hostinger, e mal via a hora de poder chegar na Sala de informática da Escola para ver "a magia acontecer". E foi aí que me deparei com meu primeiro problema... <i class="em em-grimacing" aria-role="presentation" aria-label="GRIMACING FACE"></i>
-
-                O que eu havia feito era, criar uma imagem no paint com o tamanho do meu monitor, fazer a linha das DIV'S e o "background-color" tudo diretamente dentro de uma imagem e importar para a página, ou seja, aquilo que eu enxergava no meu computador, não necessariamente se replicaria nos outros. Mas isso serviu como aprendizado para mim, e olha só onde eu cheguei...  <i class="em em-smile" aria-role="presentation" aria-label="SMILING FACE WITH OPEN MOUTH AND SMILING EYES"></i> <i class="em em-smile" aria-role="presentation" aria-label="SMILING FACE WITH OPEN MOUTH AND SMILING EYES"></i>
-                
-                Bem, toda essa experiência de vida me fez chegar até aqui.. Ah! Antes que eu me esqueça, já cheguei a frequentar até o 5º período do curso de Engenharia de Computação, porém, por conta da pandemia, fui obrigado a largar o curso (Algo que eu pretendo terminar assim que as coisas se normalizarem).
-            </div>
-        </section>
-        <hr>
-        <section id="contact">
-            <h1>FORMULÁRIO DE CONTATO:</h1>
-            <p id="paragrafo-contact">
-                Caso necessite de entrar em contato para tirar alguma dúvida, sinta-se a vontade para preencher o formulário à baixo:
-            </p>
-            <form action="">
-                <b>
-                [EM IMPLEMENTAÇÃO]
-                BREVE!!!
-                </b>
-            </form>
-            <b>Caso tu seja uma Pessoa Old School, que tal me mandar um Email: danieldias.b99@hotmail.com</b>
-        </section>
-    </main>
-    <footer>
-        <!-- RODAPÉ -->
-        RODAPÉ TEXT
-    </footer>
-</body>
-<script src="js/script.js"></script>
+        </footer>
+        <!-- Rodapé -->
+    </body>
 </html>
