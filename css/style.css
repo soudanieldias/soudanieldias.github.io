@@ -106,7 +106,6 @@
     align-self: flex-start;
     
    }
-  
-   .hidden {
-     display: none;
-   }
+  .hidden {
+    display: none;
+  }
